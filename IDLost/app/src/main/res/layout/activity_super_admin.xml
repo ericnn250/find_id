@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SuperAdmin">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbaradminlist"
+        android:layout_width="match_parent"
+        app:titleTextColor="@color/White"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"  />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbaradminlist"
+        android:id="@+id/mensuper">
+        <TextView
+            android:id="@+id/broadcast_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Admins"
+            android:layout_marginLeft="14dp"
+            android:layout_centerVertical="true"
+            android:textColor="@color/Black"
+            android:textSize="18sp"/>
+
+
+        <RelativeLayout
+            android:id="@+id/add_doctor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="10dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/white_onclick_grey">
+            <ImageView
+                android:id="@+id/add_icon"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_plus"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/add_icon"
+                android:text="New"
+                android:layout_marginRight="5dp"
+                android:textSize="10sp"
+                android:layout_centerVertical="true"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/userlist"
+        android:layout_below="@+id/mensuper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <ProgressBar
+        android:id="@+id/progressBar_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/mensuper"/>
+
+</RelativeLayout>

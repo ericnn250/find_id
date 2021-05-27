@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1025750057000",
+    "project_id": "id-lost-fad54",
+    "storage_bucket": "id-lost-fad54.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1025750057000:android:0d6cef7bbc9a61f5feb51d",
+        "android_client_info": {
+          "package_name": "com.steven.idlost"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1025750057000-qf8vj1a3l4uhu6nre51ik811jhtdt7uo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4uVEIorK1c-aPn7-iIjCER69FNd6t9mc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1025750057000-qf8vj1a3l4uhu6nre51ik811jhtdt7uo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

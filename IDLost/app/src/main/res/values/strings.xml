@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">ID Lost Retrieval</string>
+    <string name="dbnode_users">users</string>
+    <string name="field_user_id">id</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dbnode_card">cards</string>
+    <string name="status_pending">pending</string>
+    <string name="account_settings">Settings</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="save">Biika</string>
+    <string name="change_password">Hindura Ijambo Banga</string>
+    <string name="field_name">names</string>
+    <string name="field_phone">phone</string>
+    <string name="field_district">district</string>
+    <string name="field_sector">sector</string>
+    <string name="field_status">status</string>
+    <string name="taken">taken</string>
+    <string name="newadmin">Super Admin</string>
+    <string name="newadminlist">Admin List</string>
+    <string name="viewadmin">View As Admin</string>
+    <string-array name="type">
+        <item></item>
+        <item>Irangamuntu</item>
+        <item>Perimi</item>
+        <item>Passport</item>
+    </string-array>
+</resources>

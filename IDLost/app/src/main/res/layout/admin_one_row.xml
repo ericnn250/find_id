@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/grey_border_bottom">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/nuse"
+            android:textSize="17sp"
+            android:padding="4dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="Names:" />
+        <TextView
+            android:id="@+id/textView_name_row_u"
+            android:textStyle="bold"
+            android:padding="4dp"
+            android:layout_toRightOf="@+id/nuse"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"
+            android:textSize="16sp"
+            android:text="Bosco" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="3dp"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:padding="4dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="Contact" />
+        <TextView
+            android:id="@+id/textView_row_u_email"
+            android:padding="4dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="yesn@gmail.com/0788236167" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

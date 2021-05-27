@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewId">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbaruserhomecollected"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titleTextColor="@color/White"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/toolbaruserhomecollected"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:id="@+id/reluserhomec"
+        android:background="@drawable/curved_background"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="140779772985678"
+            android:textColor="@color/Black"
+            android:layout_centerHorizontal="true"
+            android:padding="5dp"
+            android:id="@+id/useridnumbercollectedview"/>
+
+        <!--            android:text="This card was found you will be notified once we found it"-->
+
+
+
+
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/reluserhomec">
+        <LinearLayout
+            android:id="@+id/locationinfoc"
+            android:visibility="visible"
+            android:background="@color/White"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="16dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/locationnamesc"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Amazina"
+                    android:padding="5dp"
+                    android:textColor="@color/Black"/>
+                <TextView
+                    android:id="@+id/locationnamesrealc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/locationnamesc"
+                    android:text="Uwingeneye Alice"
+                    android:padding="5dp"
+                    android:textColor="@color/blue2"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/locationdobc"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Itariki Yamavuko"
+                    android:padding="5dp"
+                    android:textColor="@color/Black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/locationdobc"
+                    android:text="12/1/1997"
+                    android:padding="5dp"
+                    android:id="@+id/locationdobrealc"
+                    android:textColor="@color/blue2"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/locationtypec"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Ubwoko"
+                    android:padding="5dp"
+                    android:textColor="@color/Black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/locationtypec"
+                    android:text="Perimi"
+                    android:padding="5dp"
+                    android:id="@+id/locationtyperealc"
+                    android:textColor="@color/blue2"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/locationisuedisc"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="District"
+                    android:padding="5dp"
+                    android:textColor="@color/Black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/locationisuedisc"
+                    android:text="Gakenye"
+                    android:padding="5dp"
+                    android:id="@+id/locationisuedistricrealc"
+                    android:textColor="@color/blue2"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/locationiseusecc"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Umurenge"
+                    android:padding="5dp"
+                    android:textColor="@color/Black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/locationiseusecc"
+                    android:text="Kajevuba"
+                    android:padding="5dp"
+                    android:id="@+id/locationisuesectorrealc"
+                    android:textColor="@color/blue2"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:background="@drawable/grey_border_bottom"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Aho Yatoraguwe"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/locationsecrc"
+                    android:layout_width="100dp"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content"
+                    android:text="Umurenge"/>
+                <TextView
+                    android:id="@+id/locationsecrealsc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/blue2"
+                    android:text="Nyarugenge"
+                    android:layout_toRightOf="@+id/locationsecrc"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/locationdisc"
+                    android:layout_width="100dp"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content"
+                    android:text="Irashakishwa"/>
+                <TextView
+                    android:id="@+id/locationdistrictfc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/blue2"
+                    android:text="Oya"
+                    android:layout_toRightOf="@+id/locationdisc"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/locationsecfc"
+                    android:layout_width="100dp"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content"
+                    android:text="Ibisobanuro"/>
+                <TextView
+                    android:id="@+id/locationsectorfc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/blue2"
+                    android:text=""
+                    android:layout_toRightOf="@+id/locationsecfc"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:paddingBottom="40dp">
+                <TextView
+                    android:id="@+id/locationbtncollect"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/White"
+                    android:text="Emeza ko Ijyamwe"
+                    android:padding="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/blue_button"/>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout
+        android:id="@+id/progressBarviewid"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+</RelativeLayout>

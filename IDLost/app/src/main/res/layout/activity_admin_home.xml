@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminHome">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbaradminhome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titleTextColor="@color/White"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+    <RelativeLayout
+        android:id="@+id/rela_view_user5"
+        android:layout_below="@+id/toolbaradminhome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabLayout_user_datails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tabwait"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Izisigaye" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tabcollected"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Izatowe" />
+
+        </com.google.android.material.tabs.TabLayout>
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewpager_userdetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tabLayout_user_datails" />
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="15dp"
+    android:background="@drawable/grey_border_bottom"
+    android:layout_height="wrap_content">
+   <TextView
+       android:id="@+id/textViewnumber"
+       android:layout_width="wrap_content"
+       android:text="1245679876543"
+       android:textColor="@color/Black"
+       android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/textViewname"
+        android:layout_below="@id/textViewnumber"
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:text="Mucyo"
+        android:textColor="@color/Black"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/textView2type"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:textColor="@color/blue1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

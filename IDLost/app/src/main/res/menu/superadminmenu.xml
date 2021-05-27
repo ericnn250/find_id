@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/optionSignOutusersuper"
+        android:title="@string/sign_out"
+        />
+    <item
+        android:id="@+id/optionviewasadmin"
+        android:title="@string/viewadmin"
+        />
+    <item
+        android:id="@+id/optionAccountSettingsadmin"
+        android:title="@string/account_settings"
+        />
+
+
+</menu>
